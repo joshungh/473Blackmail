@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootst
+rap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Login</title>
+</head>
+
+<body data-body="div" hidden>
+	<div class="container">
+		<h2>Blackmail Website</h2>
+
+
+		<!--NAV BAR (if logged out)-->
+		<nav class="navbar navbar-default" data-navbar-loggedout="div" hidden>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="public_blackmails.html">Public Blackmails</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="login.html">Login</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!--LOGIN FORM-->
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-4">
+				<h1>Login</h1>
+
+				<form data-login="form">
+					<div class="form-group">
+						<label>Username</label>
+						<input class="form-control" type="text" name="username" required>
+					</div>
+					<div class="form-group">
+						<label for="registration">Password</label>
+						<input class="form-control" type="password" name="password" required>
+					</div>
+
+					<div align="right">
+						<button value="submit" class="btn btn-info">Login</button>
+					</div>
+				</form>
+			</div>
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4">
+				<h1>Register</h1>
+
+				<form data-register="form">
+					<div class="form-group">
+						<label>Username</label>
+						<input class="form-control" type="text" name="username" required>
+					</div>
+					<div class="form-group">
+						<label>Email</label>
+						<input class="form-control" type="email" name="email" required>
+					</div>
+					<div class="form-group">
+						<label for="registration">Password</label>
+						<input class="form-control" type="password" name="password" required>
+					</div>
+
+					<div align="right">
+						<button value="submit" class="btn btn-info">Create Account</button>
+					</div>
+				</form>
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
+	<script src="/dpd.js" type="text/javascript"></script>
+	<script src="scripts/loginHandler.js" charset="utf-8"></script>
+	<script src="scripts/registrationHandler.js" charset="utf-8"></script>
+	<script src="scripts/whos_logged_in.js" charset="utf-8"></script>
+	<script src="scripts/load_html.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+.navbar-collapse {
+  padding-left: 0px;
+}
+
+.blackmail_info span {
+  padding: 10px;
+}
+
+.contactpage {
+  margin-top: 80px;
+}
+
+.contactpage h2 {
+  text-align: center;
+}
+
+.flex_container_contactpage {
+  display: flex;
+  justify-content: center;
+}
+
+.flex_element {
+  background: #eee;
+  margin: 10px 5px;
+  padding: 20px 10px 10px 10px;
+}
+
+.flex_element p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.flex_element a {
+  text-decoration: none;
+}
+
+.blackmail_info button {
+  margin: 10px 5px;
+}
+
+.step-dl {
+  padding: 10px;
+  background-color: #eee;
+}
+
+.step-dl dl dd {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  color: #777999;
+}
+
+.break-word {
+  width: 20em;
+  overflow-wrap: break-word;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.blackmail_presenter {
+  background: #eee;
+  height: 500px;
+  margin-right: 0px;
+  margin-left: 0px;
+  box-shadow: 0px 2px 15px 3px #eee;
+}
+
+.blackmail_presenter .col-xs-8 {
+  border-right: 1px solid #fff;
+}
+
+.blackmail_presenter .col-xs-8 img {
+  max-width: 720px;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-bottom: 25px;
+}
+
+.blackmail_presenter .col-xs-4 {
+  min-height: 350px;
+}
+
+.upload_form {
+  border: 1px solid black;
+  padding: 50px;
+}

@@ -1,0 +1,6 @@
+{
+	"type": "Fileupload",
+	"directory": "file_database/blackmails",
+	"authorization": false,
+	"uniqueFilename": true
+}

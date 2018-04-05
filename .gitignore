@@ -1,0 +1,12 @@
+# npm
+node_modules/
+npm-debug.log
+
+# deployd
+.dpd/
+data/
+
+# other stuff
+app.dpd
+package-lock.json
+/public/file_database/blackmails/
